@@ -1,0 +1,9 @@
+CREATE TABLE funcionario (
+	CPF VARCHAR(11) PRIMARY KEY,
+	sexo CHARACTER NOT NULL,
+	CNPJ_loja VARCHAR(14) NOT NULL,
+	nome VARCHAR(40) NOT NULL,
+	codigo_loja SMALLINT NOT NULL,
+	funcionario_endereco VARCHAR(40) NOT NULL,
+	funcionario_telefone VARCHAR(12)
+)
